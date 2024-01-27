@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback Form</title>
+</head>
+
+<body>
+
+ <center> <h2>Student Feedback Form</h2>
+  <form action="#" method="post">
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required><br>
+
+    <label for="feedbackType">Feedback Type:</label>
+    <select id="feedbackType" name="feedbackType" required>
+      <option value="positive">Positive</option>
+      <option value="negative">Negative</option>
+      <option value="neutral">Neutral</option>
+    </select><br>
+
+    <label>Rate your experience:</label>
+    <input type="radio" id="excellent" name="experience" value="excellent">
+    <label for="excellent">Excellent</label>
+    <input type="radio" id="good" name="experience" value="good">
+    <label for="good">Good</label>
+    <input type="radio" id="average" name="experience" value="average">
+    <label for="average">Average</label><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" required></textarea><br>
+
+    <label>
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+      Subscribe to newsletter
+    </label><br>
+
+    <button type="submit">Submit Feedback</button></form></center>
+
+  </form>
+
+</body>
+
+</html>
